@@ -81,6 +81,7 @@
                                     <table class="table table-bordered" id="tblProdutos">
                                         <thead>
                                             <tr>
+                                                <th>Código</th>
                                                 <th>Produto</th>
                                                 <th>Quantidade</th>
                                                 <th>Preço</th>
@@ -95,6 +96,7 @@
                                                 $preco = $p->preco ?: $p->precoVenda;
                                                 $total = $total + $p->subTotal;
                                                 echo '<tr>';
+                                                echo '<td>' . $p->codDeBarra . '</td>';
                                                 echo '<td>' . $p->descricao . '</td>';
                                                 echo '<td>' . $p->quantidade . '</td>';
                                                 echo '<td>' . $preco . '</td>';
