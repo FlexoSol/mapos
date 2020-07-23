@@ -4,6 +4,10 @@ Todas as alterações serão documentadas neste arquivo
 Formato baseado em [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 e [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [4.12] - 2020-07-22
+- Adicionado espaço para Código de Barras aos produtos incluídos nas vendas.
+- Inclusão da pesquisa de Produtos também pelo código de barras.
+
 ## [4.11.1] - 2020-07-18
 
 ## Added
