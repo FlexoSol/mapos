@@ -24,6 +24,7 @@
                         <thead>
                             <tr style="backgroud-color: #2D335B">
                                 <th>#</th>
+                                <th>Estoque</th>
                                 <th>Nome</th>
                                 <th>Preço</th>
                                 <th></th>
@@ -37,6 +38,7 @@
                             foreach ($produtos as $r) {
                                 echo '<tr>';
                                 echo '<td>' . $r->idProdutos . '</td>';
+                                echo '<td>' . $r->estoque . '</td>';
                                 echo '<td>' . $r->descricao . '</td>';
                                 echo '<td>' . $r->precoVenda . '</td>';
                                 echo '<td>';
